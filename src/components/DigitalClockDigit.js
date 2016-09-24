@@ -14,7 +14,7 @@ const digitsShapes = [
     { top: 1, 'top-right': 1, middle: 0, 'bottom-right': 1, bottom: 0, 'bottom-left': 0, 'top-left': 0 }, // 7
     { top: 1, 'top-right': 1, middle: 1, 'bottom-right': 1, bottom: 1, 'bottom-left': 1, 'top-left': 1 }, // 8
     { top: 1, 'top-right': 1, middle: 1, 'bottom-right': 1, bottom: 1, 'bottom-left': 0, 'top-left': 1 }, // 9
-];
+]
 
 
 class DigitalClockDigit extends Component {
