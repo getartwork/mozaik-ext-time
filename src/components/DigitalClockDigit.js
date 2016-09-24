@@ -43,7 +43,7 @@ class DigitalClockDigit extends Component {
 }
 
 DigitalClockDigit.propTypes = {
-    number: PropTypes.number.isRequired,
+    number: PropTypes.oneOf(_.range(10)),
     type:   PropTypes.string.isRequired,
 }
 
